@@ -10,8 +10,8 @@ set expandtab
 map! jj  <Esc>
 cmap w!! %!sudo tee > /dev/null %
 
+set nocompatible
 set scrolloff=3
-
 set pastetoggle=<F3>
 
 "movements
@@ -28,6 +28,10 @@ autocmd BufRead,BufNewFile *.html set softtabstop=2
 autocmd BufRead,BufNewFile *.jade set tabstop=2
 autocmd BufRead,BufNewFile *.jade set shiftwidth=2
 autocmd BufRead,BufNewFile *.jade set softtabstop=2
+
+autocmd BufRead,BufNewFile *.css set tabstop=2
+autocmd BufRead,BufNewFile *.css set shiftwidth=2
+autocmd BufRead,BufNewFile *.css set softtabstop=2
 
 autocmd BufRead,BufNewFile *.md set ft=markdown
 let g:PreviewBrowsers = 'google-chrome'

@@ -35,3 +35,5 @@ autocmd BufRead,BufNewFile *.css set softtabstop=2
 
 autocmd BufRead,BufNewFile *.md set ft=markdown
 let g:PreviewBrowsers = 'google-chrome'
+
+autocmd BufRead,BufNewFile *.bones set ft=javascript

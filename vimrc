@@ -37,3 +37,4 @@ autocmd BufRead,BufNewFile *.md set ft=markdown
 let g:PreviewBrowsers = 'google-chrome'
 
 autocmd BufRead,BufNewFile *.bones set ft=javascript
+autocmd BufRead,BufNewFile *._ set ft=html
